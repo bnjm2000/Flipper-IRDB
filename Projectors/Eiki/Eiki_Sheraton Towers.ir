@@ -1,0 +1,62 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 81 00 00 00
+# 
+name: Keystone_up
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 85 00 00 00
+# 
+name: Keystone_dwn
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 84 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 87 00 00 00
+# 
+name: Blank
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 8B 00 00 00
+# 
+name: Freeze
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 8E 00 00 00
+# 
+name: Enter
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: CA 00 00 00
+# 
+name: Source
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 83 00 00 00
+# 
+name: Zoom+
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 8A 00 00 00
+# 
+name: Zoom-
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 8D 00 00 00

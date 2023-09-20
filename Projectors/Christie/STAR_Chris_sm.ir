@@ -1,0 +1,20 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Christie_off
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 3A 00 00 00
+# 
+name: On
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 39 00 00 00
+# 
+name: Shutter
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 02 00 00 00
